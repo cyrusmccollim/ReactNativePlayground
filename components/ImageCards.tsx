@@ -12,7 +12,7 @@ export default function ImageCard() {
             <Text style={styles.headingText}>Image Cards</Text>
             <ScrollView horizontal={true} style={styles.scrollContainer}>
                 <View style={styles.card}>
-                    <Image source={require('../images/sceneMountainLake.png')} style={styles.cardImage}/>
+                    <Image source={require('../assets/sceneMountainLake.png')} style={styles.cardImage}/>
                     <View style={styles.cardBody}>
                         <Text style={styles.cardTitle}>Lake</Text>
                         <Text style={styles.cardDescription}>This image contains a lake, trees, and a mountain.</Text>
@@ -20,7 +20,7 @@ export default function ImageCard() {
                     </View>
                 </View>
                 <View style={styles.card}>
-                    <Image source={require('../images/sceneCabinLake.png')} style={styles.cardImage}/>
+                    <Image source={require('../assets/sceneCabinLake.png')} style={styles.cardImage}/>
                     <View style={styles.cardBody}>
                         <Text style={styles.cardTitle}>Cabin</Text>
                         <Text style={styles.cardDescription}>This image contains a cabin, trees, and a mountain.</Text>
@@ -28,7 +28,7 @@ export default function ImageCard() {
                     </View>
                 </View>
                 <View style={styles.card}>
-                    <Image source={require('../images/sceneSnowyMountain.png')} style={styles.cardImage}/>
+                    <Image source={require('../assets/sceneSnowyMountain.png')} style={styles.cardImage}/>
                     <View style={styles.cardBody}>
                         <Text style={styles.cardTitle}>Snowy</Text>
                         <Text style={styles.cardDescription}>This image contains a lake, trees, and a snowy mountain.</Text>

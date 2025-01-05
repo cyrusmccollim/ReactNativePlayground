@@ -19,7 +19,7 @@ export default function ActionCards() {
                     <View style={styles.actionCardHeading}>
                         <Text style={styles.actionCardTitle}>Parrot poem!</Text>
                     </View>
-                    <Image source={require('../images/parrot.png')} style={styles.actionCardImage}/>
+                    <Image source={require('../assets/parrot.png')} style={styles.actionCardImage}/>
                     <View style={styles.actionCardBody}>
                         <Text numberOfLines={3} style={styles.bodyText}>'O lonely parrot It’s such a pity You’re perched on a wire High above the city!'</Text>
                     </View>
@@ -33,7 +33,7 @@ export default function ActionCards() {
                     <View style={styles.actionCardHeading}>
                         <Text style={styles.actionCardTitle}>Tiger poem!</Text>
                     </View>
-                    <Image source={require('../images/tiger.png')} style={styles.actionCardImage}/>
+                    <Image source={require('../assets/tiger.png')} style={styles.actionCardImage}/>
                     <View style={styles.actionCardBody}>
                         <Text numberOfLines={3} style={styles.bodyText}>
                             'Tyger Tyger, burning bright, 

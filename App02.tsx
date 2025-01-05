@@ -1,13 +1,13 @@
 /*
     Cyrus McCollim
     ReactNativePlayground : App #2
-    -- Custom components (FlatCards, ScrollableCards, ImageCards)
+    -- Custom components (FlatCards, ScrollableCards, ImageCards, ActionCards, UserCards)
     -- Displays:
-      Unscrollable cards with styling.
-      Horizontally scrollable cards with styling.
-      Horizontally scrollable cards with images and styling.
-      Actionable cards with buttons.
-      User cards with images and status.
+        Unscrollable cards with styling.
+        Horizontally scrollable cards with styling.
+        Horizontally scrollable cards with images and styling.
+        Actionable cards with buttons.
+        User cards with images and status.
 */
 
 import React from 'react'

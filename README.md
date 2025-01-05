@@ -11,6 +11,8 @@ Learning:
 * Using colorScheme
 * Basic styling and alignment
 
+<img src="screenshots\app1.png" width="150">
+
 
 ## App 2 - [Styling](App02.tsx)
 *Displays a series of stylized cards on the screen.*
@@ -27,4 +29,5 @@ Learning:
 * Simple arrays, objects, array of objects
 * Iterating through array using map
 
-
+<img src="screenshots\app2-1.png" width="150">
+<img src="screenshots\app2-2.png" width="150">
