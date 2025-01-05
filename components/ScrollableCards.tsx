@@ -1,3 +1,8 @@
+/*
+    ScrollableCards - Components that have a background color and text.
+    Belongs to App #2
+*/  
+
 import { StyleSheet, Text, View, ScrollView } from 'react-native'
 import React from 'react'
 

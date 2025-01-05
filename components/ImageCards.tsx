@@ -1,3 +1,8 @@
+/*
+    ImageCards - Components that have an image, title text, body text, and footer hyperlink.
+    Belongs to App #2
+*/  
+
 import { StyleSheet, Text, View, Image, ScrollView, Linking } from 'react-native';
 import React from 'react';
 

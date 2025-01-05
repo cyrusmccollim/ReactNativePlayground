@@ -1,3 +1,8 @@
+/*
+    ActionCards - Components that have a title, image, body text, and footer button.
+    Belongs to App #2
+*/  
+
 import { StyleSheet, Linking, View, ScrollView, Text, Image, TouchableOpacity } from 'react-native'
 import React from 'react'
 
@@ -5,7 +10,7 @@ export default function ActionCards() {
     function openWebsite(websiteLink : string) {
         Linking.openURL(websiteLink);
     }
-  
+
     return (
         <View>
             <Text style={styles.headingText}>Action Cards</Text>
@@ -16,16 +21,11 @@ export default function ActionCards() {
                     </View>
                     <Image source={require('../images/parrot.png')} style={styles.actionCardImage}/>
                     <View style={styles.actionCardBody}>
-                        <Text numberOfLines={3} style={styles.bodyText}>
-                            O lonely parrot
-                            It’s such a pity
-                            You’re perched on a wire
-                            High above the city!
-                        </Text>
+                        <Text numberOfLines={3} style={styles.bodyText}>'O lonely parrot It’s such a pity You’re perched on a wire High above the city!'</Text>
                     </View>
                     <View style={styles.actionCardFooter}>
                         <TouchableOpacity onPress={() => openWebsite('https://hellopoetry.com/poem/337585/parrot-in-a-city/')}>
-                            <Text style={styles.footerText}> Read more! </Text>
+                            <Text style={styles.footerText}>Read more!</Text>
                         </TouchableOpacity>
                     </View>
                 </View>
@@ -36,15 +36,15 @@ export default function ActionCards() {
                     <Image source={require('../images/tiger.png')} style={styles.actionCardImage}/>
                     <View style={styles.actionCardBody}>
                         <Text numberOfLines={3} style={styles.bodyText}>
-                        Tyger Tyger, burning bright, 
-                        In the forests of the night; 
-                        What immortal hand or eye, 
-                        Could frame thy fearful symmetry?
+                            'Tyger Tyger, burning bright, 
+                            In the forests of the night; 
+                            What immortal hand or eye, 
+                            Could frame thy fearful symmetry?'
                         </Text>
                     </View>
                     <View style={styles.actionCardFooter}>
                         <TouchableOpacity onPress={() => openWebsite('https://www.poetryfoundation.org/poems/43687/the-tyger')}>
-                            <Text style={styles.footerText}> Read more! </Text>
+                            <Text style={styles.footerText}>Read more!</Text>
                         </TouchableOpacity>
                     </View>
                 </View>
@@ -52,6 +52,7 @@ export default function ActionCards() {
         </View>
     )
 }
+
 
 const styles = StyleSheet.create({
     scrollContainer: {

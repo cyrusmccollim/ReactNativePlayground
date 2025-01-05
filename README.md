@@ -22,4 +22,9 @@ Learning:
 * Images
 * Hyperlinks
 * Buttons
+* Injecting javascript
+* Ternary statements
+* Simple arrays, objects, array of objects
+* Iterating through array using map
+
 

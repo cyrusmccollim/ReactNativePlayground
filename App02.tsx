@@ -6,15 +6,16 @@
       Unscrollable cards with styling.
       Horizontally scrollable cards with styling.
       Horizontally scrollable cards with images and styling.
-      Actionable cards.
-
+      Actionable cards with buttons.
+      User cards with images and status.
 */
 
 import React from 'react'
 import FlatCards from './components/FlatCards' // Importing a custom component.
 import ScrollableCards from './components/ScrollableCards' // Importing a custom component.
 import ImageCards from './components/ImageCards'
-import ActionCards from './components/ActionCards'
+import ActionCard from './components/ActionCards'
+import ContactList from './components/UserCards'
 import { 
   SafeAreaView,
   ScrollView,
@@ -28,7 +29,8 @@ export default function App(): JSX.Element {
         <FlatCards/>
         <ScrollableCards/>
         <ImageCards/>
-        <ActionCards/>
+        <ActionCard/>
+        <ContactList/>
       </ScrollView>
     </SafeAreaView>
   )
