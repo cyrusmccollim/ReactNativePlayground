@@ -29,5 +29,7 @@ Learning:
 * Simple arrays, objects, array of objects
 * Iterating through array using map
 
-<img src="screenshots\app2-1.png" width="150">
-<img src="screenshots\app2-2.png" width="150">
+<p float="left">
+    <img src="screenshots\app2-1.png" width="150">
+    <img src="screenshots\app2-2.png" width="150">
+</p>
