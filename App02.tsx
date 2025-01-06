@@ -1,6 +1,7 @@
 /*
     Cyrus McCollim
     ReactNativePlayground : App #2
+    Styling
     -- Custom components (FlatCards, ScrollableCards, ImageCards, ActionCards, UserCards)
     -- Displays:
         Unscrollable cards with styling.

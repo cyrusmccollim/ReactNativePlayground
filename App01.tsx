@@ -1,6 +1,7 @@
 /*
     Cyrus McCollim
     ReactNativePlayground : App #1
+    HelloWorld
     -- Displays a large, bold, veritcally- and horizontally-centered "Hello!" against a light-purple background. 
 */
 
