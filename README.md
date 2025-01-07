@@ -1,7 +1,7 @@
 # ReactNativePlayground
 Getting familiar with ReactNative by building a series of basic applications.
 
-## App 1 - [HelloWorld](App01.tsx)
+## App 1 - [HelloWorld](src/App01.tsx)
 
 *Displays "Hello!" on the screen.*
 
@@ -14,7 +14,7 @@ Learning:
 <img src="screenshots\app1.png" width="150">
 
 
-## App 2 - [Styling](App02.tsx)
+## App 2 - [Styling](src/App02.tsx)
 *Displays a series of stylized cards on the screen.*
 
 Learning:
@@ -35,7 +35,7 @@ Learning:
     <img src="screenshots\app2-2.png" width="150">
 </p>
 
-## App 3 - [StringGenerator](App03.tsx)
+## App 3 - [StringGenerator](src/App03.tsx)
 *Generates a random string based on user's specifications.*
 
 Learning:
@@ -53,7 +53,7 @@ Learning:
     <img src="screenshots\app3-3.png" width="150">
 </p>
 
-## App 4 - [DiscoClicker](App04.tsx)
+## App 4 - [DiscoClicker](src/App04.tsx)
 *Randomizes the background color of the app upon the press of a button.*
 
 Learning:
@@ -67,7 +67,7 @@ Learning:
     <img src="screenshots\app4-2.png" width="150">
 </p>
 
-## App 5 - [DiceRoller](App05.tsx)
+## App 5 - [DiceRoller](src/App05.tsx)
 *Rolls a 6-sided die.*
 
 Learning:
