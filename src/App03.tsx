@@ -20,7 +20,8 @@ import {
   Text,
   TouchableOpacity,
   TextInput,
-  Dimensions
+  Dimensions,
+  GestureResponderEvent
 } from 'react-native'
 
 export default function App(): JSX.Element {
