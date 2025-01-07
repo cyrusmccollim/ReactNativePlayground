@@ -53,3 +53,17 @@ Learning:
     <img src="screenshots\app3-3.png" width="150">
 </p>
 
+## App 3 - [DiscoClicker](App04.tsx)
+*Randomizes the background color of the app upon the press of a button.*
+
+Learning:
+* Reinforcing state management with useState
+* Reinforcing business logic
+* Reinforcing arrow functions
+* Reinforcing basic styling
+
+<p float="left">
+    <img src="screenshots\app4-1.png" width="150">
+    <img src="screenshots\app4-2.png" width="150">
+</p>
+
