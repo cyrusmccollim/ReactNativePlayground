@@ -22,7 +22,7 @@ Learning:
 * Making custom components (FlatCards, ScrollableCards, ImageCards, ActionCards, UserCards)
 * Containers within other containers
 * Advanced styling of text and containers
-* Images
+* Introduction to Images
 * Hyperlinks
 * Buttons (TouchableOpacity)
 * Injecting JavaScript
@@ -53,7 +53,7 @@ Learning:
     <img src="screenshots\app3-3.png" width="150">
 </p>
 
-## App 3 - [DiscoClicker](App04.tsx)
+## App 4 - [DiscoClicker](App04.tsx)
 *Randomizes the background color of the app upon the press of a button.*
 
 Learning:
@@ -67,3 +67,20 @@ Learning:
     <img src="screenshots\app4-2.png" width="150">
 </p>
 
+## App 5 - [DiceRoller](App05.tsx)
+*Rolls a 6-sided die.*
+
+Learning:
+* Haptic feedback with Vibration component
+* Styling with useColorScheme()
+* In-memory data persistence using array
+* Custom types
+* Custom components of custom types
+* Advanced use of Image, importing images
+* Reinforcing iterating through array with map
+* Reinforcing conditional rendering
+
+<p float="left">
+    <img src="screenshots\app5-1.png" width="150">
+    <img src="screenshots\app5-2.png" width="150">
+</p>

@@ -146,7 +146,7 @@ export default function App(): JSX.Element {
 
               <View style={styles.buttonsContainer}>
                 {/* onPress={handleSubmit}: Function call will collect values, errors, and other data to call the onSubmit() of the Formik component. */}
-                <TouchableOpacity style={[styles.primaryButton, (!isValid && styles.disabledButton)]} disabled={!isValid} onPress={handleSubmit} >
+                <TouchableOpacity style={[styles.primaryButton, (!isValid && styles.disabledButton)]} disabled={!isValid} onPress={handleSubmit}>
                     <Text style={styles.primaryButtonText}>GENERATE</Text>
                 </TouchableOpacity>
 

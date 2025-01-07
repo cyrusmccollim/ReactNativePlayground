@@ -16,7 +16,7 @@ import {
     View
 } from 'react-native'
 
-export const App = () => {
+const App = () => {
     // State management.
     const [bgColor, setBgColor] = useState('#000000')
 
