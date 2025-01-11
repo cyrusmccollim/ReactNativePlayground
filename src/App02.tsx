@@ -12,11 +12,11 @@
 */
 
 import React from 'react'
-import FlatCards from '../components/FlatCards' // Importing a custom component.
-import ScrollableCards from '../components/ScrollableCards' // Importing a custom component.
-import ImageCards from '../components/ImageCards'
-import ActionCard from '../components/ActionCards'
-import ContactList from '../components/UserCards'
+import FlatCards from '../components/experiments/FlatCards' // Importing a custom component.
+import ScrollableCards from '../components/experiments/ScrollableCards' // Importing a custom component.
+import ImageCards from '../components/experiments/ImageCards'
+import ActionCard from '../components/experiments/ActionCards'
+import ContactList from '../components/experiments/UserCards'
 import { 
   SafeAreaView,
   ScrollView,

@@ -29,5 +29,3 @@ export const diceImageByName = (name: string) => {
       default: return DiceBlack1;
     }
 };
-
-declare module '*.png'

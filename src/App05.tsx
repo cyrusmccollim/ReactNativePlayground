@@ -1,6 +1,6 @@
 import React, { PropsWithChildren, useState } from 'react'
 
-import { diceImageByName } from '../assets/dice/index.dice'
+import { diceImageByName } from '../assets/dice/dice-index.d'
 
 import {
     View,
