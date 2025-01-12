@@ -1,19 +1,24 @@
-import React from 'react'
+import React, { PropsWithChildren }from 'react'
 import { 
     StyleSheet,
     TouchableOpacity,
-    Text
+    Text,
+    ViewStyle
 } from 'react-native'
 import {
-    schemeText,
-    schemeBg,
+    schemeColor
 } from '../helpers/scheme'
 
-const CurrencyButton = (currency : Currency) => {
+type currencyButtonProps = PropsWithChildren<{
+    currency : Currency,
+    customStyle : ViewStyle
+}>
+
+const CurrencyButton = (props : currencyButtonProps) => {
     return (
-        <TouchableOpacity style={[styles.button, schemeBg(true)]}>
-            <Text style={[styles.flag, schemeText(true)]}>{currency.flag}</Text>
-            <Text style={[styles.name, schemeText(true)]}>{currency.name}</Text>
+        <TouchableOpacity style={[styles.button, props.customStyle]}>
+            <Text style={styles.flag}>{props.currency.flag}</Text>
+            <Text style={styles.name}>{props.currency.name}</Text>
         </TouchableOpacity>
     )
 }
@@ -23,15 +28,18 @@ export default CurrencyButton
 const styles = StyleSheet.create({
     button: {
         padding: 10,
-        margin: 10,
+        margin: 7,
         borderRadius: 20,
         alignItems: 'center',
         justifyContent: 'center',
+        elevation: 5,
+        backgroundColor: schemeColor(true)
     },
     flag: {
-        fontSize: 20,
+        fontSize: 30,
     },
     name: {
-        fontSize: 15, 
+        fontSize: 10, 
+        color: schemeColor(false)
     }
 })

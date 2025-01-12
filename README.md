@@ -85,5 +85,9 @@ Learning:
     <img src="screenshots\app5-2.png" width="150">
 </p>
 
-## App 5 - [CurrencyConversion](src/App06.tsx)
-*Converts currency.*
+## App 6 - [CurrencyConverter](src/App06.tsx)
+*Converts between currencies.*
+
+* TextInput
+* Interfaces
+* FlatList (as opposed to ScrollView)
