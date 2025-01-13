@@ -41,11 +41,12 @@ Learning:
 Learning:
 * More components (TextInput, Dimensions)
 * Writing business logic
-* Yup (validation package)
-* Formik (forms package)
-* BouncyCheckbox (checkboxes package)
+* Yup (npm validation package)
+* Formik (npm forms package)
+* BouncyCheckbox (npm checkboxes package)
 * useState() state management
 * Conditional rendering
+* Dimensions
 
 <p float="left">
     <img src="screenshots\app3-1.png" width="150">
@@ -75,7 +76,7 @@ Learning:
 * Styling with useColorScheme()
 * In-memory data persistence using array
 * Custom types
-* Custom components of custom types
+* Custom components of custom type (Dice)
 * Advanced use of Image, importing images
 * Reinforcing iterating through array with map
 * Reinforcing conditional rendering
@@ -86,8 +87,14 @@ Learning:
 </p>
 
 ## App 6 - [CurrencyConverter](src/App06.tsx)
-*Converts between currencies.*
+*View the equivalent dollar amount in various other currencies.*
 
-* TextInput
-* Interfaces
-* FlatList (as opposed to ScrollView)
+* More components (TextInput, Pressable, FlatList)
+* Custom components with property parameters (CurrencyButton)
+* Snackbar (npm package for popups)
+* Basic class/interface
+
+<p float="left">
+    <img src="screenshots\app6-1.png" width="150">
+    <img src="screenshots\app6-2.png" width="150">
+</p>
